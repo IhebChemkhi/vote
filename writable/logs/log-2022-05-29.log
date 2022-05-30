@@ -1,0 +1,231 @@
+CRITICAL - 2022-05-29 15:13:45 --> Call to a member function view() on null
+#0 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 15:13:57 --> Call to a member function view() on null
+#0 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 15:14:01 --> Call to a member function view() on null
+#0 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 15:16:39 --> Call to a member function view() on null
+#0 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 15:16:40 --> Call to a member function view() on null
+#0 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 15:16:40 --> Call to a member function view() on null
+#0 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 15:16:41 --> Call to a member function view() on null
+#0 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-29 16:06:25 --> Invalid file: creeVote.php
+#0 C:\wamp64\www\Juge-Maj\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creeVote.php')
+#1 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('creeVote', Array, true)
+#2 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(17): view('creeVote')
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->VoteCreer()
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 16:06:31 --> Invalid file: creeVote.php
+#0 C:\wamp64\www\Juge-Maj\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creeVote.php')
+#1 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('creeVote', Array, true)
+#2 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(17): view('creeVote')
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->VoteCreer()
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 16:06:38 --> Invalid file: creeVote.php
+#0 C:\wamp64\www\Juge-Maj\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creeVote.php')
+#1 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('creeVote', Array, true)
+#2 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(17): view('creeVote')
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->VoteCreer()
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 16:08:35 --> Invalid file: creeVote.php
+#0 C:\wamp64\www\Juge-Maj\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creeVote.php')
+#1 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('creeVote', Array, true)
+#2 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(17): view('creeVote')
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->VoteCreer()
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 16:09:47 --> Invalid file: creeVote.php
+#0 C:\wamp64\www\Juge-Maj\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creeVote.php')
+#1 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('creeVote', Array, true)
+#2 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(17): view('creeVote')
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->VoteCreer()
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 16:10:08 --> Invalid file: creeVote.php
+#0 C:\wamp64\www\Juge-Maj\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creeVote.php')
+#1 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('creeVote', Array, true)
+#2 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(17): view('creeVote')
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 16:11:12 --> Invalid file: creeVote.php
+#0 C:\wamp64\www\Juge-Maj\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creeVote.php')
+#1 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('creeVote', Array, true)
+#2 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(17): view('creeVote')
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 16:11:13 --> Invalid file: creeVote.php
+#0 C:\wamp64\www\Juge-Maj\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creeVote.php')
+#1 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('creeVote', Array, true)
+#2 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(17): view('creeVote')
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 16:11:13 --> Invalid file: creeVote.php
+#0 C:\wamp64\www\Juge-Maj\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creeVote.php')
+#1 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('creeVote', Array, true)
+#2 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(17): view('creeVote')
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 16:11:13 --> Invalid file: creeVote.php
+#0 C:\wamp64\www\Juge-Maj\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creeVote.php')
+#1 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('creeVote', Array, true)
+#2 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(17): view('creeVote')
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 16:11:13 --> Invalid file: creeVote.php
+#0 C:\wamp64\www\Juge-Maj\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creeVote.php')
+#1 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('creeVote', Array, true)
+#2 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(17): view('creeVote')
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 16:11:14 --> Invalid file: creeVote.php
+#0 C:\wamp64\www\Juge-Maj\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creeVote.php')
+#1 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('creeVote', Array, true)
+#2 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(17): view('creeVote')
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 16:11:14 --> Invalid file: creeVote.php
+#0 C:\wamp64\www\Juge-Maj\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creeVote.php')
+#1 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('creeVote', Array, true)
+#2 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(17): view('creeVote')
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 16:11:14 --> Invalid file: creeVote.php
+#0 C:\wamp64\www\Juge-Maj\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creeVote.php')
+#1 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('creeVote', Array, true)
+#2 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(17): view('creeVote')
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 16:11:33 --> Invalid file: creeVote.php
+#0 C:\wamp64\www\Juge-Maj\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creeVote.php')
+#1 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('creeVote', Array, true)
+#2 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(17): view('creeVote')
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 16:11:33 --> Invalid file: creeVote.php
+#0 C:\wamp64\www\Juge-Maj\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creeVote.php')
+#1 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('creeVote', Array, true)
+#2 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(17): view('creeVote')
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 16:11:33 --> Invalid file: creeVote.php
+#0 C:\wamp64\www\Juge-Maj\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creeVote.php')
+#1 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('creeVote', Array, true)
+#2 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(17): view('creeVote')
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 16:11:34 --> Invalid file: creeVote.php
+#0 C:\wamp64\www\Juge-Maj\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creeVote.php')
+#1 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('creeVote', Array, true)
+#2 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(17): view('creeVote')
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 16:11:34 --> Invalid file: creeVote.php
+#0 C:\wamp64\www\Juge-Maj\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creeVote.php')
+#1 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('creeVote', Array, true)
+#2 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(17): view('creeVote')
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 16:11:35 --> Invalid file: creeVote.php
+#0 C:\wamp64\www\Juge-Maj\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creeVote.php')
+#1 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('creeVote', Array, true)
+#2 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(17): view('creeVote')
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 16:11:35 --> Invalid file: creeVote.php
+#0 C:\wamp64\www\Juge-Maj\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('creeVote.php')
+#1 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('creeVote', Array, true)
+#2 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(17): view('creeVote')
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

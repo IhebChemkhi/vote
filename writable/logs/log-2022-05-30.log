@@ -504,3 +504,68 @@ CRITICAL - 2022-05-30 14:12:43 --> Champ 'vote_question' inconnu dans field list
 #10 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #11 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #12 {main}
+ERROR - 2022-05-30 16:10:40 --> Champ 'vote_question' inconnu dans field list
+ERROR - 2022-05-30 16:16:21 --> Champ 'vote_question' inconnu dans field list
+ERROR - 2022-05-30 16:16:41 --> Champ 'vote_question' inconnu dans field list
+ERROR - 2022-05-30 16:16:47 --> Champ 'vote_question' inconnu dans field list
+ERROR - 2022-05-30 16:19:39 --> Champ 'vote_question' inconnu dans field list
+ERROR - 2022-05-30 16:21:52 --> Champ 'vote_question' inconnu dans field list
+CRITICAL - 2022-05-30 16:21:52 --> Champ 'vote_question' inconnu dans field list
+#0 D:\wamp64\www\vote\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `t_...', 0)
+#1 D:\wamp64\www\vote\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_...')
+#2 D:\wamp64\www\vote\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_...')
+#3 D:\wamp64\www\vote\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#4 D:\wamp64\www\vote\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\wamp64\www\vote\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\wamp64\www\vote\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\wamp64\www\vote\app\Controllers\Home.php(36): CodeIgniter\Model->insert(Array)
+#8 D:\wamp64\www\vote\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#9 D:\wamp64\www\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\wamp64\www\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\wamp64\www\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-30 16:54:50 --> Duplicata du champ '3' pour la clef 'PRIMARY'
+CRITICAL - 2022-05-30 16:54:50 --> Duplicata du champ '3' pour la clef 'PRIMARY'
+#0 D:\wamp64\www\vote\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `t_...', 0)
+#1 D:\wamp64\www\vote\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_...')
+#2 D:\wamp64\www\vote\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_...')
+#3 D:\wamp64\www\vote\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#4 D:\wamp64\www\vote\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\wamp64\www\vote\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\wamp64\www\vote\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\wamp64\www\vote\app\Controllers\Home.php(41): CodeIgniter\Model->insert(Array)
+#8 D:\wamp64\www\vote\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#9 D:\wamp64\www\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\wamp64\www\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\wamp64\www\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-30 16:55:14 --> Duplicata du champ '3' pour la clef 'PRIMARY'
+CRITICAL - 2022-05-30 16:55:14 --> Duplicata du champ '3' pour la clef 'PRIMARY'
+#0 D:\wamp64\www\vote\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `t_...', 0)
+#1 D:\wamp64\www\vote\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_...')
+#2 D:\wamp64\www\vote\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_...')
+#3 D:\wamp64\www\vote\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#4 D:\wamp64\www\vote\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\wamp64\www\vote\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\wamp64\www\vote\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\wamp64\www\vote\app\Controllers\Home.php(41): CodeIgniter\Model->insert(Array)
+#8 D:\wamp64\www\vote\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#9 D:\wamp64\www\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\wamp64\www\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\wamp64\www\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-30 16:57:18 --> Duplicata du champ '3' pour la clef 'PRIMARY'
+CRITICAL - 2022-05-30 16:57:18 --> Duplicata du champ '3' pour la clef 'PRIMARY'
+#0 D:\wamp64\www\vote\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `t_...', 0)
+#1 D:\wamp64\www\vote\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_...')
+#2 D:\wamp64\www\vote\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_...')
+#3 D:\wamp64\www\vote\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#4 D:\wamp64\www\vote\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\wamp64\www\vote\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\wamp64\www\vote\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\wamp64\www\vote\app\Controllers\Home.php(41): CodeIgniter\Model->insert(Array, true)
+#8 D:\wamp64\www\vote\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#9 D:\wamp64\www\vote\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\wamp64\www\vote\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\wamp64\www\vote\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

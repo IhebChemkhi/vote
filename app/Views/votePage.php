@@ -17,13 +17,11 @@
 									<div class="text-center">
 										<h1 class="h4 text-gray-900 mb-4">Voulez-vous voter?</h1>
 									</div>
-									<form class="user">
+									<form class="user" action="<?php echo base_url(); ?>/home/index" method="post">
 										<div class="form-group">
-											<input type="email" class="form-control form-control-user" id="exampleInputEmail" placeholder="Inserez le lien de vote">
+											<input type="text" class="form-control form-control-user" name="lien" placeholder="Inserez le lien de vote">
 										</div>
-										<a href="#" class="btn btn-success btn-user btn-block">
-											VOTER
-										</a>
+										<button type="submit" class="btn btn-success btn-user btn-block"> VOTER</button>
 									</form>
 									<form class="user">
 										<p style="font-size: 15px;"> Voulez-vous créer un vote?</p>

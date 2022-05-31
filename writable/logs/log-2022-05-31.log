@@ -1,0 +1,182 @@
+CRITICAL - 2022-05-31 08:49:26 --> Undefined variable: validation
+#0 C:\wamp64\www\Juge-Maj\app\Views\creerVote.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\J...', 35, Array)
+#1 C:\wamp64\www\Juge-Maj\system\View\View.php(210): include('C:\\wamp64\\www\\J...')
+#2 C:\wamp64\www\Juge-Maj\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('creerVote', Array, true)
+#4 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(63): view('creerVote')
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#6 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 09:00:10 --> Call to undefined function App\Controllers\random_string()
+#0 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-31 09:08:33 --> A non-numeric value encountered
+#0 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\wamp64\\www\\J...', 47, Array)
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 09:11:02 --> A non-numeric value encountered
+#0 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\wamp64\\www\\J...', 48, Array)
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 09:11:48 --> A non-numeric value encountered
+#0 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\wamp64\\www\\J...', 48, Array)
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 09:12:31 --> A non-numeric value encountered
+#0 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\wamp64\\www\\J...', 48, Array)
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 09:13:01 --> A non-numeric value encountered
+#0 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\wamp64\\www\\J...', 48, Array)
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 09:13:12 --> A non-numeric value encountered
+#0 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\wamp64\\www\\J...', 48, Array)
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 09:13:22 --> A non-numeric value encountered
+#0 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\wamp64\\www\\J...', 48, Array)
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 09:14:58 --> A non-numeric value encountered
+#0 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\wamp64\\www\\J...', 49, Array)
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 09:20:24 --> Array to string conversion
+#0 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\J...', 62, Array)
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteCreer()
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 09:47:26 --> Undefined index: vote_id
+#0 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\J...', 32, Array)
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 09:47:50 --> Undefined index: vote_id
+#0 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\J...', 28, Array)
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 09:48:48 --> syntax error, unexpected '}'
+#0 C:\wamp64\www\Juge-Maj\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\J...')
+#1 C:\wamp64\www\Juge-Maj\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-31 09:48:49 --> syntax error, unexpected '}'
+#0 C:\wamp64\www\Juge-Maj\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/voteCreer')
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/voteCreer')
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 09:48:52 --> syntax error, unexpected '}'
+#0 C:\wamp64\www\Juge-Maj\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\J...')
+#1 C:\wamp64\www\Juge-Maj\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-31 09:50:06 --> Call to undefined method App\Models\UserModel::findFirst
+#0 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(24): CodeIgniter\Model->__call('findFirst', Array)
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 10:24:56 --> Undefined index: cho_nom
+#0 C:\wamp64\www\Juge-Maj\app\Views\votePrive.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\J...', 34, Array)
+#1 C:\wamp64\www\Juge-Maj\system\View\View.php(210): include('C:\\wamp64\\www\\J...')
+#2 C:\wamp64\www\Juge-Maj\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('votePrive', Array, true)
+#4 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(118): view('votePrive')
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->votePrive('17')
+#6 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 10:24:58 --> Undefined index: cho_nom
+#0 C:\wamp64\www\Juge-Maj\app\Views\votePrive.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\J...', 34, Array)
+#1 C:\wamp64\www\Juge-Maj\system\View\View.php(210): include('C:\\wamp64\\www\\J...')
+#2 C:\wamp64\www\Juge-Maj\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('votePrive', Array, true)
+#4 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(118): view('votePrive')
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->votePrive('17')
+#6 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 10:58:40 --> Too few arguments to function App\Controllers\Home::votePrive(), 0 passed in C:\wamp64\www\Juge-Maj\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->votePrive()
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-31 10:59:12 --> Too few arguments to function App\Controllers\Home::votePrive(), 0 passed in C:\wamp64\www\Juge-Maj\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->votePrive()
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-31 11:01:00 --> There is no data to update.
+#0 C:\wamp64\www\Juge-Maj\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\Juge-Maj\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\Juge-Maj\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(139): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->changerEtat('16')
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-31 11:02:13 --> There is no data to update.
+#0 C:\wamp64\www\Juge-Maj\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\Juge-Maj\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\Juge-Maj\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(144): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->changerEtat('16')
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

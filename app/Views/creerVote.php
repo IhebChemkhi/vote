@@ -14,15 +14,20 @@
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Quelle est la question?</h1>
                                     </div>
+                                    <?php if (session()->getFlashdata('success') !== NULL) : ?>
+										<div class="alert alert-success" style="text-align: center;" role="alert">
+											<?php echo session()->getFlashdata('success'); ?>
+										</div>
+									<?php endif; ?>
                                     <form class="user" action="<?php echo base_url(); ?>/home/voteCreer" method="post">
                                         <div class="form-group">
-                                            <input type="text" class="form-control form-control-user" name="question" id="exampleInputEmail" placeholder="La question" value="<?= set_value('question') ?>">
+                                            <input type="text" class="form-control form-control-user" name="question" placeholder="La question" value="<?= set_value('question') ?>">
                                             <div id="choix">
                                                 <input type="text" class="form-control form-control-user my-2" name="choix1" placeholder="Choix" value="">
                                             </div>
                                         </div>
                                         <button type="button" class="btn btn-primary btn-user btn-block" onclick="addFields()">Ajouter choix</button>
-                                        <button type="submit" class="btn btn-success btn-user btn-block"> SUIVANT</button>
+                                        <button type="submit" class="btn btn-success btn-user btn-block"> CREER</button>
                                     </form>
                                     <?php if (isset($validation)) : ?>
                                         <div class="col-12">

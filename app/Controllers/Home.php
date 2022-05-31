@@ -120,7 +120,15 @@ class Home extends BaseController
     }
     public function votePublic($id)
     {
-        echo view('temp/haut');
+        helper(['form', 'text']);
+        $data = [];
+        $model = new UserModel();
+        $ChoixModel = new ChoixModel();
+        $data['question'] = $model->where('vote_id', $id)
+            ->first();
+        $data['choix'] = $ChoixModel->where('vote_id', $id)
+            ->findall();
+        echo view('temp/haut',$data);
         echo view('votePublic');
         echo view('temp/bas');
     }

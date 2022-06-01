@@ -65,18 +65,23 @@ class Home extends BaseController
             if (!$this->validate($rules)) {
                 $data['validation'] = $this->validator;
             } else {
-                $idPrive = random_string('alnum', 16);
-                $idPublic = random_string('alnum', 16);
+                // $idPrive = random_string('alnum', 16);
+                // $idPublic = random_string('alnum', 16);
                 $base = base_url();
                 $model = new UserModel();
                 $newData = [
                     'vote_question' => $this->request->getVar('question'),
                     'vote_etat' => 'O',
                     'vote_id' => null,
-                    'vote_urlPublic' => '' . $base . '/home/votePublic/' . $idPublic,
-                    'vote_urlPrive' =>  '' . $base . '/home/votePrive/' . $idPrive,
+                    'vote_urlPublic' => '' . $base . '/home/votePublic/',
+                    'vote_urlPrive' =>  '' . $base . '/home/votePrive/',
                 ];
                 $id = $model->insert($newData, true);
+                $dataUpdate = [
+                    'vote_urlPublic' => '' . $base . '/home/votePublic/' . $id,
+                    'vote_urlPrive' =>  '' . $base . '/home/votePrive/' . $id,
+                ];
+                $model->update($id, $dataUpdate);
                 $modelChoix = new ChoixModel();
                 foreach ($choix as $key => $value) {
                     $unChoix = [
@@ -87,7 +92,7 @@ class Home extends BaseController
                     $modelChoix->insert($unChoix);
                 }
                 $session = session();
-                $session->setFlashdata('success', 'Le vote a été crée.<br> Voici Le lien Privé : ' . $newData['vote_urlPrive'] . '<br> Voici le Lien public: ' . $newData['vote_urlPublic']);
+                $session->setFlashdata('success', 'Le vote a été crée.<br> Voici Le lien Privé : ' . $dataUpdate['vote_urlPrive'] . '<br> Voici le Lien public: ' . $dataUpdate['vote_urlPublic']);
                 return redirect()->to("home/voteCreer");
             }
         }
@@ -174,23 +179,80 @@ class Home extends BaseController
         }
         return redirect()->to("home/votePrive/" . $id);
     }
-    public function voteResultatPublic($id){
+    public function voteResultatPublic($id)
+    {
         $model = new UserModel();
         $ChoixModel = new ChoixModel();
         // $appModel = new AppModel();
-        $db=db_connect();
+        $db = db_connect();
         $custum = new CustumModel($db);
         $choix = [];
         $data['question'] = $model->where('vote_id', $id)
             ->first();
         $data['choix'] = $ChoixModel->where('vote_id', $id)
             ->findall();
-            foreach ($data['choix'] as $key) {
-                $parfait= $custum->CountParfait($key['cho_id']);
-                
-                
+        foreach ($data['choix'] as $key) {
+            $parfait = $custum->CountParfait($key['cho_id']);
+            $tresBon = $custum->CountTresBon($key['cho_id']);
+            $moyen = $custum->CountMoyen($key['cho_id']);
+            $bon = $custum->Countbon($key['cho_id']);
+            $mauvais = $custum->CountMauvais($key['cho_id']);
+            $tresMauvais = $custum->CountTresMauvais($key['cho_id']);
+            $rejeter = $custum->CountRejeter($key['cho_id']);
+            $total = $parfait + $tresBon + $moyen + $bon + $mauvais + $tresMauvais + $rejeter;
+            $res[$key['cho_id']]['parfait'] = ($parfait * 100) / $total;
+            $res[$key['cho_id']]['tres bon'] = ($tresBon * 100) / $total;
+            $res[$key['cho_id']]['bon'] = ($bon * 100) / $total;
+            $res[$key['cho_id']]['moyen'] = ($moyen * 100) / $total;
+            $res[$key['cho_id']]['mauvais'] = ($mauvais * 100) / $total;
+            $res[$key['cho_id']]['tresMauvais'] = ($tresMauvais * 100) / $total;
+            $res[$key['cho_id']]['rejeter'] = ($rejeter * 100) / $total;
+            $choix[$key['cho_id']] = 0;
+        }
+        $gagnant = '';
+        $options = [
+            'parfait', 'tres bon', 'bon', 'moyen', 'mauvais', 'tresMauvais', 'rejeter'
+        ];
+        $nbGagnant = 0;
+        $tabGagnant = [];
+        $grandID= '';
+        foreach ($options as $opt) {
+            //printf($opt);
+            foreach ($data['choix'] as $key) { // comparaison des parfaits
+                $choix[$key['cho_id']] += $res[$key['cho_id']][$opt];
+                if ($choix[$key['cho_id']] >= 50) {
+                    $gagnant = $choix[$key['cho_id']];
+                   // printf($gagnant . '-----------------------');
+                    $tabGagnant[$nbGagnant] = $key['cho_id'];
+                    $nbGagnant++;
+                }
             }
-       echo view('temp/haut',$data);
+            if ($nbGagnant > 0) {
+                $tabCompMieux = [];
+                foreach ($tabGagnant as $gagne) {
+                    $tabCompMieux[$gagne][0] = $res[$gagne]['parfait'] + $res[$gagne]['tres bon'];
+                    $tabCompMieux[$gagne][1] = $res[$gagne]['moyen'] + $res[$gagne]['mauvais'] + $res[$gagne]['tresMauvais'] + $res[$gagne]['rejeter'];
+                }
+                //print_r($tabCompMieux);
+                
+                $grandVal=50;
+                foreach($tabCompMieux as $key=>$comp){
+                    if ($comp[0]>=$grandVal){
+                        $grandID = $key;
+                    }
+                    if ($comp[1]<=$grandVal){
+                        $grandID = $key;
+                    }
+                }
+
+                break;
+            }
+        }
+        print_r($grandID);
+        $data['gagnant'] = $ChoixModel->where('cho_id', $grandID)
+        ->first();
+
+        echo view('temp/haut', $data);
         echo view('resultatPublic');
         echo view('temp/bas');
     }

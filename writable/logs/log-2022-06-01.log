@@ -1,0 +1,83 @@
+CRITICAL - 2022-06-01 03:02:29 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\Juge-Maj\app\Views\votePublic.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\J...', 12, Array)
+#1 C:\wamp64\www\Juge-Maj\system\View\View.php(210): include('C:\\wamp64\\www\\J...')
+#2 C:\wamp64\www\Juge-Maj\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('votePublic', Array, true)
+#4 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(158): view('votePublic')
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->votePublic('2...')
+#6 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 03:52:34 --> Undefined index: fondue
+#0 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(223): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\J...', 223, Array)
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteResultatPublic('23')
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 03:53:09 --> Undefined index: fondue
+#0 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(238): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\J...', 238, Array)
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteResultatPublic('23')
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 04:19:48 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\Juge-Maj\app\Views\resultatPublic.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\J...', 12, Array)
+#1 C:\wamp64\www\Juge-Maj\system\View\View.php(210): include('C:\\wamp64\\www\\J...')
+#2 C:\wamp64\www\Juge-Maj\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('resultatPublic', Array, true)
+#4 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(255): view('resultatPublic')
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteResultatPublic('23')
+#6 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 04:20:33 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\Juge-Maj\app\Views\resultatPublic.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\J...', 12, Array)
+#1 C:\wamp64\www\Juge-Maj\system\View\View.php(210): include('C:\\wamp64\\www\\J...')
+#2 C:\wamp64\www\Juge-Maj\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('resultatPublic', Array, true)
+#4 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(256): view('resultatPublic')
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteResultatPublic('23')
+#6 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 04:20:33 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\Juge-Maj\app\Views\resultatPublic.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\J...', 12, Array)
+#1 C:\wamp64\www\Juge-Maj\system\View\View.php(210): include('C:\\wamp64\\www\\J...')
+#2 C:\wamp64\www\Juge-Maj\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('resultatPublic', Array, true)
+#4 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(256): view('resultatPublic')
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteResultatPublic('23')
+#6 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 04:20:47 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\Juge-Maj\app\Views\resultatPublic.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\J...', 12, Array)
+#1 C:\wamp64\www\Juge-Maj\system\View\View.php(210): include('C:\\wamp64\\www\\J...')
+#2 C:\wamp64\www\Juge-Maj\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('resultatPublic', Array, true)
+#4 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(256): view('resultatPublic')
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteResultatPublic('23')
+#6 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-01 04:21:46 --> Operand should contain 1 column(s)
+CRITICAL - 2022-06-01 04:21:46 --> Operand should contain 1 column(s)
+#0 C:\wamp64\www\Juge-Maj\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\Juge-Maj\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\Juge-Maj\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\Juge-Maj\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\Juge-Maj\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\Juge-Maj\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(253): CodeIgniter\BaseModel->first()
+#7 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteResultatPublic('23')
+#8 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

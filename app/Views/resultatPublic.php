@@ -9,9 +9,7 @@
                     <h6 class="m-0 font-weight-bold text-primary">RESULTAT!</h6>
                 </div>
                 <div class="card-body">
-                       <div class="table-responsive">
-                           
-                        </div>
+                       <?php echo ($gagnant['cho_nom']) ;?> 
 
                     </form>
                     

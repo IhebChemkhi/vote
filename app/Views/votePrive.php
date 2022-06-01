@@ -41,6 +41,10 @@
                                 <?php endforeach ?>
                             </tbody>
                         </table>
+                        <div class="col text-center">
+                        <a href="<?php echo base_url(); ?>" style="text-decoration:none"><button type="button" class="btn btn-Danger btn-user w-50"> RETOUR</button></a>
+                        </div>
+                                   
                     </div>
                 </div>
             </div>

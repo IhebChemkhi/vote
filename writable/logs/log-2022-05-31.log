@@ -202,3 +202,162 @@ CRITICAL - 2022-05-31 11:33:46 --> Undefined variable: cho
 #7 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #8 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #9 {main}
+CRITICAL - 2022-05-31 16:26:43 --> Too few arguments to function App\Controllers\Home::votePublic(), 0 passed in C:\wamp64\www\Juge-Maj\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->votePublic()
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-31 16:54:05 --> Undefined index: etat
+#0 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\J...', 30, Array)
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 17:18:16 --> syntax error, unexpected end of file
+#0 C:\wamp64\www\Juge-Maj\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('resultatPublic', Array, true)
+#2 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(186): view('resultatPublic')
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteResultatPublic('16')
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 17:18:50 --> Undefined variable: appreciation
+#0 C:\wamp64\www\Juge-Maj\app\Views\resultatPublic.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\J...', 27, Array)
+#1 C:\wamp64\www\Juge-Maj\system\View\View.php(210): include('C:\\wamp64\\www\\J...')
+#2 C:\wamp64\www\Juge-Maj\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('resultatPublic', Array, true)
+#4 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(186): view('resultatPublic')
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteResultatPublic('16')
+#6 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 17:20:19 --> Undefined index: app_choix
+#0 C:\wamp64\www\Juge-Maj\app\Views\resultatPublic.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\J...', 29, Array)
+#1 C:\wamp64\www\Juge-Maj\system\View\View.php(210): include('C:\\wamp64\\www\\J...')
+#2 C:\wamp64\www\Juge-Maj\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\Juge-Maj\system\Common.php(1089): CodeIgniter\View\View->render('resultatPublic', Array, true)
+#4 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(186): view('resultatPublic')
+#5 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteResultatPublic('17')
+#6 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 18:14:41 --> Too few arguments to function App\Models\CustumModel::__construct(), 0 passed in C:\wamp64\www\Juge-Maj\app\Controllers\Home.php on line 181 and exactly 1 expected
+#0 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(181): App\Models\CustumModel->__construct()
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteResultatPublic('16')
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 18:16:02 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(182): App\Models\CustumModel->__construct(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteResultatPublic('16')
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 18:16:03 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(182): App\Models\CustumModel->__construct(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteResultatPublic('16')
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-31 18:17:31 --> Erreur de syntaxe près de '`t_choix_cho`.`vote_id`' à la ligne 3
+CRITICAL - 2022-05-31 18:17:31 --> Erreur de syntaxe près de '`t_choix_cho`.`vote_id`' à la ligne 3
+#0 C:\wamp64\www\Juge-Maj\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\Juge-Maj\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\Juge-Maj\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\Juge-Maj\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\Juge-Maj\app\Models\CustumModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(189): App\Models\CustumModel->getAllAppWithVoteID()
+#6 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteResultatPublic('16')
+#7 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-31 18:18:04 --> Erreur de syntaxe près de '`t_choix_cho`.`vote_id`' à la ligne 3
+CRITICAL - 2022-05-31 18:18:04 --> Erreur de syntaxe près de '`t_choix_cho`.`vote_id`' à la ligne 3
+#0 C:\wamp64\www\Juge-Maj\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\Juge-Maj\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\Juge-Maj\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\Juge-Maj\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\Juge-Maj\app\Models\CustumModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(189): App\Models\CustumModel->getAllAppWithVoteID()
+#6 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteResultatPublic('16')
+#7 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-31 18:18:05 --> Erreur de syntaxe près de '`t_choix_cho`.`vote_id`' à la ligne 3
+CRITICAL - 2022-05-31 18:18:05 --> Erreur de syntaxe près de '`t_choix_cho`.`vote_id`' à la ligne 3
+#0 C:\wamp64\www\Juge-Maj\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\Juge-Maj\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\Juge-Maj\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\Juge-Maj\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\Juge-Maj\app\Models\CustumModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(189): App\Models\CustumModel->getAllAppWithVoteID()
+#6 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteResultatPublic('16')
+#7 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-31 18:18:06 --> Erreur de syntaxe près de '`t_choix_cho`.`vote_id`' à la ligne 3
+CRITICAL - 2022-05-31 18:18:06 --> Erreur de syntaxe près de '`t_choix_cho`.`vote_id`' à la ligne 3
+#0 C:\wamp64\www\Juge-Maj\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\Juge-Maj\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\Juge-Maj\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\Juge-Maj\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\Juge-Maj\app\Models\CustumModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(189): App\Models\CustumModel->getAllAppWithVoteID()
+#6 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteResultatPublic('16')
+#7 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-31 18:34:45 --> Too few arguments to function App\Models\CustumModel::getAllAppWithVoteID(), 0 passed in C:\wamp64\www\Juge-Maj\app\Controllers\Home.php on line 189 and exactly 1 expected
+#0 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(189): App\Models\CustumModel->getAllAppWithVoteID()
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteResultatPublic('16')
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-31 18:35:05 --> Champ 't_appreciation_app.app.choix' inconnu dans where clause
+CRITICAL - 2022-05-31 18:35:05 --> Champ 't_appreciation_app.app.choix' inconnu dans where clause
+#0 C:\wamp64\www\Juge-Maj\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\Juge-Maj\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\Juge-Maj\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\Juge-Maj\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\Juge-Maj\app\Models\CustumModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(189): App\Models\CustumModel->getAllAppWithVoteID(26)
+#6 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteResultatPublic('16')
+#7 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-31 18:36:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+#0 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(189): App\Models\CustumModel->getAllAppWithVoteID(26)
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteResultatPublic('16')
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 18:45:25 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\J...', 192, Array)
+#1 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(192): printf(Array)
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteResultatPublic('16')
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-31 18:53:40 --> Undefined index: choix
+#0 C:\wamp64\www\Juge-Maj\app\Controllers\Home.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\J...', 189, Array)
+#1 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(832): App\Controllers\Home->voteResultatPublic('16')
+#2 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\Juge-Maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\Juge-Maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

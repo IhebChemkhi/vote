@@ -28,6 +28,7 @@
                                         </div>
                                         <button type="button" class="btn btn-primary btn-user btn-block" onclick="addFields()">Ajouter choix</button>
                                         <button type="submit" class="btn btn-success btn-user btn-block"> CREER</button>
+                                        <a href="<?php echo base_url(); ?>" style="text-decoration:none"><button type="button"  class="btn btn-Danger btn-user btn-block mt-2"> RETOUR</button></a>
                                     </form>
                                     <?php if (isset($validation)) : ?>
                                         <div class="col-12">

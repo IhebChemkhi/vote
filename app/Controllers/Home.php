@@ -2,8 +2,10 @@
 
 namespace App\Controllers;
 
+use App\Models\AppModel;
 use App\Models\UserModel;
 use App\Models\ChoixModel;
+use App\Models\CustumModel;
 
 class Home extends BaseController
 {
@@ -26,7 +28,11 @@ class Home extends BaseController
                     ->first();
 
                 if ($public != null)
-                    return redirect()->to("home/votePublic/" . $public['vote_id']);
+                    if ($public['vote_etat'] == 'O')
+                        return redirect()->to("home/votePublic/" . $public['vote_id']);
+                    else
+                        return
+                            redirect()->to("home/voteResultatPublic/" . $public['vote_id']);
                 else if ($prive != null)
                     return redirect()->to("home/votePrive/" . $prive['vote_id']);
                 else
@@ -122,13 +128,28 @@ class Home extends BaseController
     {
         helper(['form', 'text']);
         $data = [];
+        $appreciation = [];
         $model = new UserModel();
         $ChoixModel = new ChoixModel();
+        $appModel = new AppModel();
         $data['question'] = $model->where('vote_id', $id)
             ->first();
         $data['choix'] = $ChoixModel->where('vote_id', $id)
             ->findall();
-        echo view('temp/haut',$data);
+        if ($this->request->getMethod() == 'post') {
+            foreach ($this->request->getPost() as $key => $value) {
+                $appreciation[$key] = $value;
+            }
+            foreach ($appreciation as $key => $value) {
+                $uneApp = [
+                    'app_id' => null,
+                    'app_choix' => $value,
+                    'cho_id' => $key,
+                ];
+                $appModel->insert($uneApp);
+            }
+        }
+        echo view('temp/haut', $data);
         echo view('votePublic');
         echo view('temp/bas');
     }
@@ -144,13 +165,33 @@ class Home extends BaseController
             $newData = [
                 'vote_etat' => 'F',
             ];
-            $model->update($id,$newData);
+            $model->update($id, $newData);
         } else if ($data['etat']['vote_etat'] == 'F') {
             $newData = [
                 'vote_etat' => 'O',
             ];
-            $model -> update($id,$newData);
+            $model->update($id, $newData);
         }
         return redirect()->to("home/votePrive/" . $id);
+    }
+    public function voteResultatPublic($id){
+        $model = new UserModel();
+        $ChoixModel = new ChoixModel();
+        // $appModel = new AppModel();
+        $db=db_connect();
+        $custum = new CustumModel($db);
+        $choix = [];
+        $data['question'] = $model->where('vote_id', $id)
+            ->first();
+        $data['choix'] = $ChoixModel->where('vote_id', $id)
+            ->findall();
+            foreach ($data['choix'] as $key) {
+                $parfait= $custum->CountParfait($key['cho_id']);
+                
+                
+            }
+       echo view('temp/haut',$data);
+        echo view('resultatPublic');
+        echo view('temp/bas');
     }
 }
